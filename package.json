@@ -1,6 +1,6 @@
 {
   "name": "hfdl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,11 @@
     "url": "git+https://github.com/FullTag/hfdl"
   },
   "bin": "./index.js",
-  "keywords": ["huggingface", "download", "cache"],
+  "keywords": [
+    "huggingface",
+    "download",
+    "cache"
+  ],
   "author": "Paul den Otter <paul@fulltag.dev> (https://fulltag.dev/)",
   "url": "https://fulltag.dev",
   "license": "ISC",
