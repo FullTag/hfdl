@@ -1,0 +1,65 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@huggingface/hub':
+        specifier: ^1.0.0
+        version: 1.0.0
+      p-limit:
+        specifier: ^6.2.0
+        version: 6.2.0
+      yaml:
+        specifier: ^2.7.0
+        version: 2.7.0
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
+
+packages:
+
+  '@huggingface/hub@1.0.0':
+    resolution: {integrity: sha512-IZ3fJ4WJ4iOghZkHWaKJY+XZJK9xAbaSIziY+OQcYtxnlcXo01/ibe2y2JjdsIhfzmYpxvov7F1qHoj2ek7tWQ==}
+    engines: {node: '>=18'}
+
+  '@huggingface/tasks@0.13.17':
+    resolution: {integrity: sha512-nytJPvVMlMpaeDOhjp0vJJKSWyHEKziPEQ5WbzeU2Av0W1y/xkvIE9XHdWcOXXOSOFieoJmSCUf2HI23umlzZw==}
+
+  p-limit@6.2.0:
+    resolution: {integrity: sha512-kuUqqHNUqoIWp/c467RI4X6mmyuojY5jGutNU0wVTmEOOfcuwLqyMVoAi9MKi2Ak+5i9+nhmrK4ufZE8069kHA==}
+    engines: {node: '>=18'}
+
+  yaml@2.7.0:
+    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
+    engines: {node: '>= 14'}
+    hasBin: true
+
+  yocto-queue@1.1.1:
+    resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
+    engines: {node: '>=12.20'}
+
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
+
+snapshots:
+
+  '@huggingface/hub@1.0.0':
+    dependencies:
+      '@huggingface/tasks': 0.13.17
+
+  '@huggingface/tasks@0.13.17': {}
+
+  p-limit@6.2.0:
+    dependencies:
+      yocto-queue: 1.1.1
+
+  yaml@2.7.0: {}
+
+  yocto-queue@1.1.1: {}
+
+  zod@3.24.1: {}
