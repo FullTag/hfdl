@@ -6,7 +6,7 @@ This can be handy when building a Node.js app with transformers.js and Dockerizi
 
 ## Usage
 
-Create a `huggingface.yml` file with the following content:
+Create a `huggingface.yaml` file with the following content:
 ```yaml
 [MODELNAME]:
   files:
